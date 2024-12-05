@@ -8,8 +8,11 @@ use MercadoPago\Serialization\Mapper;
 /** Preference class. */
 class Preference extends MPResource
 {
+
+
     /** Class mapper. */
     use Mapper;
+
 
     /** Preference ID. */
     public ?string $id;
@@ -144,6 +147,9 @@ class Preference extends MPResource
 
     /** Created by app. */
     public $created_by_app;
+
+    /** Financing Group */
+    public $financing_group;
 
     public $map = [
         "items" => "MercadoPago\Resources\Preference\Item",
