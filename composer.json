@@ -3,7 +3,7 @@
     "description": "Mercado Pago PHP SDK",
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/mercadopago/sdk-php",
+    "homepage": "https://github.com/JoseManuelKun/mercadopago-sdk-php",
     "autoload": {
         "psr-4": {
             "MercadoPago\\": "src/MercadoPago"
