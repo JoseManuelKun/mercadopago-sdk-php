@@ -1,5 +1,5 @@
 {
-    "name": "mercadopago/dx-php",
+    "name": "josemanuelkun/mercadopago-sdk-php",
     "description": "Mercado Pago PHP SDK",
     "type": "library",
     "license": "MIT",
