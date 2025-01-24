@@ -224,6 +224,10 @@ class Payment extends MPResource
     /** 3DS info. */
     public array|object|null $three_ds_info;
 
+    /** Release info. */
+    public ?string $release_info;
+
+
     private $map = [
         "forward_data" => "MercadoPago\Resources\Payment\ForwardData",
         "payer" => "MercadoPago\Resources\Payment\Payer",
