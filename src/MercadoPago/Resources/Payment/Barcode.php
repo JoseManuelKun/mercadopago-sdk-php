@@ -7,4 +7,8 @@ class Barcode
 {
     /** Content info. */
     public ?string $content;
+
+    /** Height. */
+    public ?int $height;
+
 }
