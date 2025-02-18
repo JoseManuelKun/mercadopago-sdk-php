@@ -34,6 +34,9 @@ class Card
     /** Card's owner data. */
     public array|object|null $cardholder;
 
+    /** Bin */
+    public ?string $bin;
+
     private $map = [
         "cardholder" => "MercadoPago\Resources\Payment\Cardholder"
     ];
