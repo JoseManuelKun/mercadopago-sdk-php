@@ -37,6 +37,9 @@ class Card
     /** Bin */
     public ?string $bin;
 
+    /** country */
+    public ?string $country;
+
     private $map = [
         "cardholder" => "MercadoPago\Resources\Payment\Cardholder"
     ];
