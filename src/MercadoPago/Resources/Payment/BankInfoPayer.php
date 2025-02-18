@@ -25,4 +25,7 @@ class BankInfoPayer
 
     /** Identification */
     public array|object|null $identification;
+
+    /** Branch  **/
+    public ?string $branch;
 }
