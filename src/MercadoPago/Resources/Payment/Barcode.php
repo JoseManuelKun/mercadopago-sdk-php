@@ -8,6 +8,9 @@ class Barcode
     /** Content info. */
     public ?string $content;
 
+    /** Type */
+    public ?string $type;
+
     /** Height. */
     public ?int $height;
 
