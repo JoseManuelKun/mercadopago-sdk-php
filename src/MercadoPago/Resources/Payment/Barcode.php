@@ -11,7 +11,10 @@ class Barcode
     /** Type */
     public ?string $type;
 
-    /** Height. */
+    /** Height */
     public ?int $height;
+
+    /** Width */
+    public ?int $width;
 
 }
