@@ -37,6 +37,9 @@ class TransactionData
     /** Ticket ID */
     public ?string $ticket_id;
 
+    /** Merchant Category code */
+    public ?string $merchant_category_code;
+
     private $map = [
         "bank_info" => "MercadoPago\Resources\Payment\BankInfo",
     ];
