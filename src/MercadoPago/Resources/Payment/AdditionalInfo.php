@@ -34,6 +34,9 @@ class AdditionalInfo
     /** Tracking ID  **/
     public ?string $tracking_id;
 
+    /** Payment_channel */
+    public ?string $payment_channel;
+
     private $map = [
       "payer" => "MercadoPago\Resources\Payment\AdditionalInfoPayer",
       "shipments" => "MercadoPago\Resources\Payment\Shipments"

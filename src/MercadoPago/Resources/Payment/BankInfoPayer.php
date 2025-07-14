@@ -28,4 +28,7 @@ class BankInfoPayer
 
     /** Branch  **/
     public ?string $branch;
+
+    /** Is End Consumer */
+    public ?bool $is_end_consumer = false;
 }
