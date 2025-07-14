@@ -10,4 +10,7 @@ class ApplicationData
 
     /** Version. */
     public ?string $version;
+
+    /** operating_system */
+    public ?string $operating_system;
 }

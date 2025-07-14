@@ -22,6 +22,9 @@ class PaymentMethodData
     /** External Resource URL. */
     public ?string $external_resource_url;
 
+    /** retried_by */
+    public ?string $retried_by;
+
     private $map = [
         "rules" => "MercadoPago\Resources\Payment\PaymentMethodRules",
     ];
