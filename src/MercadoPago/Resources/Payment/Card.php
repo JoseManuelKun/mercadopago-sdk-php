@@ -40,6 +40,9 @@ class Card
     /** country */
     public ?string $country;
 
+    /** tags **/
+    public ?array $tags;
+
     private $map = [
         "cardholder" => "MercadoPago\Resources\Payment\Cardholder"
     ];
