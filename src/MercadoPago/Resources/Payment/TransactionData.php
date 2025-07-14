@@ -34,6 +34,9 @@ class TransactionData
     /** E2E ID. */
     public ?string $e2e_id;
 
+    /** Ticket */
+    public ?string $ticket;
+
     private $map = [
         "bank_info" => "MercadoPago\Resources\Payment\BankInfo",
     ];
